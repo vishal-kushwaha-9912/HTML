@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <h1>University registration Form</h1>
+
+     <p>Please fill out form below to register</p>
+<hr>
+
+      <h2>personal Details</h2>
+
+         <label>first Name:</label>
+        <input type="text" id="username"placeholder="enter your name" required>
+<br><br>
+
+        <label>Last Name:</label>
+        <input type="text" id="userlastname"placeholder="enter your last name">
+<br><br>
+<br><br>
+
+        <label>father Name:</label>
+        <input type="text" id="student father name " placeholder="enter your father name" required >
+<br><br>
+<br><br>
+
+        <label>Mother Name:</label>
+        <input type="text" id="student mother name "placeholder="enter your mother name" required>
+<br><br>
+
+         <label>Date Of Birth</label>
+         <input type="date" id="user date of birth"placeholder="enter your DOB " required>
+<br><br>
+
+       <label>Gender:</label>
+<br><br>
+        <label>Male</label>
+        <input type="radio" id="usermale"  value="male">
+<br>
+    <label>Female</label>
+     <input type="radio" id="userfemale" value="female">
+<br>
+     <label>other</label>
+    <input type ="radio" id="userother" value="other">
+
+<br><br>
+         <p>Upload your photo:</p>
+        <p><button>choose file</button> no file chosen</p>
+
+<hr>
+
+     <h2>Contact Information:</h2>
+
+        <label>Email Address:</label>
+        <input type="email address" id ="useremail"placeholder="enter your Email" required>
+
+<br><br>
+
+        <label>Phone Number:</label>
+        <input type="number" id="user number" value=" number"placeholder="enter your phone number" required>
+
+<br><br>
+
+        <label>Mailing Address:</label>
+
+<br>
+
+    <textarea> name="Address" id="Address" rows="10 " colm="10" ></textarea>
+
+<hr>
+
+    <h2>Acadecmic Information</h2>
+
+    <label>select your course:</label>
+
+<br>
+
+    <select name="course" id="couse">
+    <option value ="CSE">CSE</option>
+    <option value ="AI & ML">AI & ML</option>
+    <option value="EEE">EEE</option>
+    <option value="ME">ME</option>
+    <optiopn value="CIVIL">CIVIL</option>
+     <option value="arospace">AROSPACE</option>   
+    </select>
+
+<br>
+
+   <p>Extracurriculam Interest:</p>
+
+   <label>sports</label>
+    <input type ="checkbox" id="user sports">
+
+<br>
+
+    <label>Musice&Arts</label>
+    <input type="checkbox" id="user Musiceand arts">
+
+<br>
+
+    <label>Technology club</label>
+    <input type="checkbox" id ="user technology club">
+
+<br>
+
+    <label for="Voluteering">Voluteering</label>
+    <input type="checkbox" name="Interest" id="uservoluteering" value="Voluteering">
+
+
+<br><br>
+<hr>
+ 
+      <h2>Creat Your Account:</h2>
+ 
+     <label>Creat a password:</label>
+     <input type="password" id="user password">
+
+<br><br>
+
+         <label>Security Question:</label>
+
+  <select name="what was your first name?">
+          <option value="nitesh" >nitesh</option>
+           <option value ="Vinay">Vinay </option>
+           <option value="deeepak">deepak</option>
+         <option value="anmol">anmol</option>
+        <option value="pankaj">pankaj</option>
+
+  </select>
+<br><br>
+
+         <label>Security Answer:</label>
+        <input type ="name" id="usersecurityanswer">
+
+<br><br>
+
+         <label>i agree to the terms and condition </label>
+         <input type="checkbox" id ="agree">
+
+<hr>
+       <button type="submit">Register</button>
+       <button type="reset">clear form</button>  
+
+</body>
+</html>
