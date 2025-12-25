@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> basics of form</title>
+</head>
+<body>
+    <form>
+        <label>NAME:</label>
+        <input type="text" name="username"></input>
+      <br><br>
+
+    <label>father name:</label>
+    <input type="name" name="userfathername">
+     <br><br>
+
+    <label>DATE Of Birth</label>
+    <input type="date" name="userage">
+    <br><br>
+
+     <label>password:</label>
+     <input type="password" name="userpassword">
+    <br><br>
+
+    <labeL>Email Address:</labeL>
+    <input type="email" name="useremail">
+     <br><br>
+
+     <label>gender:</label>
+
+     <label>male</label>
+     <input type="radio" name="gender" id ="male">
+     
+     
+     <label>female</label>
+     <input type="radio" name="gender" id="female">
+    
+     <label>other</label>
+     <input type="radio" name="gender" id="other">
+     <br><br> 
+
+     
+
+    <button>submit</button>
+    </form>
+</body>
+</html>
