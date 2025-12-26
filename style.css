@@ -1,0 +1,63 @@
+.container{
+    background-color: white;
+   display: flex;
+    
+    height: 800px;
+    
+
+ justify-content: space-evenly;
+
+    justify-content:center;
+
+    justify-content: end;  
+
+ justify-content: flex-end;
+
+  align-items: center;
+
+ flex-direction: row;
+
+   /* flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+}
+
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.first{
+    background-color: blue;
+    /*flex-grow: 2;*/
+
+      
+}
+.second{
+    background-color: blueviolet;
+  
+    /*flex-basis: 200px;*/
+    /*flex basis is used for increased the width of the specialfic */
+  
+    /* flex-grow: 2;*/
+  /*flex-grow is used to grow the flex in any thing in the background */
+
+  /*flex-shrink: 4;*/
+  /* flex-shrink is used for fast shirnk in css*/
+
+}
+.third{
+    background-color: yellowgreen;
+align-self: flex-start;
+ /* align-self is used to seprate/break the flow  the element from the center of the group of the element */
+
+/*flex-grow: 4;*/
+}
+.fourth{
+    background-color: aquamarine;
+}
+
+.fifth{
+    background-color: yellow;
+}
